@@ -131,8 +131,8 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
 
 # Defind Repo aliases
-alias kmfb="cd Repos/Udemy/From_zero_to_a_full_Kubernetes"
-alias udemy="cd Repos/Udemy"
+alias kmfb="cd ~/Repos/Udemy/From_zero_to_a_full_Kubernetes"
+alias udemy="cd ~/Repos/Udemy"
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/home/keegan/.rd/bin:$PATH"
