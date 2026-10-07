@@ -110,8 +110,11 @@ fi
 alias k='kubectl'
 
 source /etc/bash_completion
-source <(kubectl compeletion bash)
+source <(kubectl completion bash)
 complete -o default -F __start_kubectl k
+alias kgp='kubectl get pods'
+alias kc='kubectx'
+alias kn='kubens'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
