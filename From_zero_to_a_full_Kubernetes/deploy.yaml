@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: kreker
+  name: kreker
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: kreker
+  template:
+    metadata:
+      labels:
+        app: kreker
+    spec:
+      containers:
+      - image: httpd
+        name: httpd
